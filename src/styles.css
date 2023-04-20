@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.table {
+    border-collapse: collapse;
+    border-style: none;
+}
+
+.header-cell {
+    color: blue;
+    font-weight: bold;
+  }
+
+
+  .mat-h1, .mat-headline-5, .mat-typography .mat-h1, .mat-typography .mat-headline-5, .mat-typography h1{
+    color: blue;
+    font-weight: bold !important;
+    font-size: 40px;
+    height: 80px;
+    width: 300px;
+    line-height: 1.5em;
+    margin-bottom: 80px;
+  }
+
+  .mat-elevation-z8 {
+    margin-top: 120px; 
+    /* margin-left: 240px;
+    margin-right: 240px;   */
+    box-shadow: none !important;
+}
+
+.mat-mdc-form-field-focus-overlay{
+    text-align: right !important;
+}
+
+.column {
+    float: left;
+    
+  }
+  
+  .left, .right {
+    width: 25%;
+    text-align: center;
+  }
+
+  .right{
+    margin-bottom: 100px;
+  }
+
+  .left img{
+    display: inline-block;
+    margin-top: 70px;
+  }
+
+   .right img{
+    display: inline-block;
+    margin-top: 650px;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+
+  .mat-mdc-form-field{
+    text-align: right !important;
+  }
+  .filtro{
+    text-align: right !important;
+}
+.mat-mdc-table .mdc-data-table__row{
+  border-collapse: collapse;
+  border-style: none;
+}
+.lupa{
+  height:20px;
+}

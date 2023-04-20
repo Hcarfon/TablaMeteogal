@@ -1,0 +1,24 @@
+<div class='tabladatosestacion' *ngIf="estacionData">
+    <h2 class='tituloestacion'>{{ estacionData.listDatosDiarios[0].listaEstacions[0].estacion }}</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class='tituloestacion'>Nome Parametro</th>
+          <th class='tituloestacion2'>Valor</th>
+          <th class='tituloestacion2'>Unidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dato of estacionData.listDatosDiarios[0].listaEstacions[0].listaMedidas">
+
+          <td>{{ dato.nomeParametro }}</td>
+
+          <td class='estacion2'>{{ dato.valor }}</td>
+
+          <td class='estacion2'>{{ dato.unidade }}</td>
+
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
